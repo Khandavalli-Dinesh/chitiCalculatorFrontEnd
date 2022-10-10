@@ -1,0 +1,18 @@
+.trash,
+.trash:active {
+  background-color: blueviolet !important;
+  color: white !important;
+  margin: 20px ;
+  width: 4rem ; 
+  height: 2.5rem ;
+  border-radius: 10pt;
+  font-size: 6pt;
+  padding: 5px;
+  border: solid black 2px;
+  
+}
+
+.trash:hover {
+  background-color: rgb(124, 47, 196) !important;
+  color: yellow !important;
+}

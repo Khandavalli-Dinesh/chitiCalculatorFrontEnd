@@ -1,0 +1,164 @@
+.btn-custom,
+.btn-custom:active {
+  background-color: blueviolet !important;
+  margin-top: 10px;
+  color: white !important;
+  margin: 10px;
+  width: 50%;
+  min-height: 4rem;
+  border-radius: 100px;
+}
+.btn-custom b , .edit b, .save b{
+  font-size: 15pt;
+}
+.btn-custom:hover {
+  background-color: rgb(124, 47, 196) !important;
+  color: yellow !important;
+}
+
+.edit,.editUser , .edit:active,.editUser:active{
+  background-color: rgb(93, 85, 235) !important;
+  width: 25%;
+  margin-top: 10px;
+  color: white !important;
+  margin: 10px;
+  min-height: 4rem;
+  border-radius: 100px;
+}
+
+.edit:hover,.editUser:hover{
+  background-color: rgb(54, 54, 199) !important;
+  color: lightgray !important;
+}
+
+.save , .save:active{
+  background-color: rgba(241, 211, 63, 0.874) !important;
+  width: 25%;
+  margin-top: 10px;
+  color: white !important;
+  margin: 10px;
+  min-height: 4rem;
+  border-radius: 100px;
+}
+
+.save:hover{
+  background-color: rgba(219, 193, 59, 0.874) !important;
+  color: black !important;
+}
+
+.cancel , .cancel:active{
+  background-color:rgb(241, 103, 61) !important;
+  width: 25%;
+  margin-top: 10px;
+  color: white !important;
+  margin: 10px;
+  min-height: 4rem;
+  border-radius: 100px;
+}
+
+.cancel:hover{
+  background-color: rgb(216, 91, 53) !important;
+}
+
+.add,
+.add:active {
+  background-color: blueviolet !important;
+  color: white !important;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 20%;
+  margin-bottom: 3rem !important;
+  width: 15%;
+  /* min-height: 4rem; */
+  height: 3rem;
+  /* border-radius: 20pt; */
+  border-radius: 10pt;
+  font-size: 15pt;
+  /* font-size: 20pt; */
+  
+}
+
+.add:hover {
+  background-color: rgb(124, 47, 196) !important;
+  color: yellow !important;
+}
+
+.candidateAdd,
+.candidateAdd:active {
+  background-color: blueviolet !important;
+  color: white !important;
+  margin: 20px;
+  width: 15%;
+  height: 2.5rem;
+  border-radius: 10pt;
+  font-size: 10pt;
+  
+}
+
+.candidateAdd:hover, .home:hover , .logOut:hover{
+  background-color: rgb(124, 47, 196) !important;
+  color: yellow !important;
+}
+
+.home, .home:active, .notAdminHome, .notAdminHome:active{
+  background-color: blueviolet !important;
+  color: white !important;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 0;
+  margin-bottom: 5px;
+  /* margin-right: 38%; */
+  width: 10%;
+  height: 3rem;
+  border-radius: 10pt;
+  font-size: 15pt;
+}
+
+.logOut ,.homePage, .logOut:active,
+ .homePage:active,.back,.back:active,
+  .monthPage, .monthPage:active,
+  .profilePage,.profilePage:active,
+  .adminProfile,.adminProfile:active{
+  background-color: blueviolet !important;
+  color: white !important;
+  margin-top: 20px;
+  margin-left: 38%;
+  margin-right: 2%;
+  margin-bottom: 3rem !important;
+  width: 10%;
+  height: 3rem;
+  border-radius: 10pt;
+  font-size: 15pt;
+}
+
+.homePage, .homePage:active{
+  margin-left: 88% !important;
+}
+
+.back, .back:active{
+  margin-left:25%;
+  margin-right: 2%;
+}
+
+.monthPage, .monthPage:active{
+  margin-left: 0;
+}
+
+.notAdminHome, .notAdminHome:active{
+  margin-right: 38%;
+}
+
+.profilePage,.profilePage:active{
+  margin-left: 35%;
+}
+
+.adminProfile,.adminProfile:active{
+  margin-left: 74%;
+}
+
+.editUser,.editUser:active{
+  width: 70%;
+  min-height: 3rem;
+  margin-top: 15px;
+  border-radius: 20px !important;
+}
